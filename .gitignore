@@ -1,7 +1,13 @@
 # --- Archivos de Seguridad (NUNCA SUBIR) ---
 .env
+.env.*
 api_keys.txt
 secrets.json
+credentials*
+*.pem
+*.key
+*.pfx
+*.p12
 
 # --- PyInstaller (Generados automáticamente) ---
 build/
@@ -13,3 +19,6 @@ dist/
 venv/
 __pycache__/
 *.pyc
+
+# --- SonarQube/SonarCloud local ---
+.sonar/
