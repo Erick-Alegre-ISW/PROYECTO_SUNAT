@@ -1,6 +1,7 @@
 # --- Archivos de Seguridad (NUNCA SUBIR) ---
 .env
 .env.*
+!.env.example
 api_keys.txt
 secrets.json
 credentials*
